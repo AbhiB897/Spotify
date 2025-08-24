@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f006d62a08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Logo.png.jpeg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemcontainer">
+                <div class="songItem">
+                    <img src="Desi kalakaar.jpeg" alt="Honey">
+                    <span class="songName">Desi kalakaar</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">4:13</span>
+                        <i id="0" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="2.jpeg" alt="Raid 2">
+                    <span class="songName">Nasha Raid 2</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">3:52</span>
+                        <i id="1" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="3.jpeg" alt="Ed Sheeran">
+                    <span class="songName">Shape Of You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">2:33</span>
+                        <i id="2" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="4.jpeg" alt="Diljit">
+                    <span class="songName">Hass Hass</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">2:33</span>
+                        <i id="3" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="5.jpeg" alt="Believer">
+                    <span class="songName">Believer</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">3:24</span>
+                        <i id="4" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="6.jpeg" alt="Justin">
+                    <span class="songName">Baby</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">3:39</span>
+                        <i id="5" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="7.jpeg" alt="Aaj Ki Raat">
+                    <span class="songName">Aaj Ki Raat</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">4:47</span>
+                        <i id="6" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="8.jpeg" alt="Lover">
+                    <span class="songName">Lover</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">4:13</span>
+                        <i id="7" class="far songItemPlay fa-circle-play"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="far fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="gif.project.mp4" width="30px" alt="Playing" id="gif">
+            <span id="currentSongName">Desi kalakaar - Honey Singh</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
