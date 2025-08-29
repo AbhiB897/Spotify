@@ -77,5 +77,5 @@ Right-click and select "Open with Live Server"
 
 The project will open in your default browser at:
 
-Similar link will be shown in your browser
-http://127.0.0.1:5500/
+click below link to see it
+https://musicwebpage.vercel.app/
